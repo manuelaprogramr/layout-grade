@@ -1,0 +1,83 @@
+*{
+  border: 0;
+}
+
+#container-principal {
+  height: 600px;
+  background-color:rgb(224 234 243) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.caixa-principal {
+  display: grid;
+  width: 800px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 285px);
+}
+
+.caixa-info {
+  padding-left: 40px;
+  width: 75%;
+  line-height: 30px;
+}
+
+.caixa {
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  grid-column: 1/4;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.caixa1 {
+  background-color: #2bb3b1;
+  border-bottom-left-radius: 10px;
+  overflow: auto;
+}
+.p-opacity {
+  opacity: 32%;
+  color: #ffffff;
+}
+.botao {
+    background-color: #bfdf32;
+    color: #ffffff;
+    text-align: center;
+    width: 80%;
+    padding: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixa2 {
+   background-color: #4abebd;
+   border-bottom-right-radius: 10px;
+}
+
+.pacote {
+  width: 155px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+h3 {
+  padding-top: 12px;
+  color: #ffffff;
+}
+h1{
+  color: #2bb3b1;
+}
+h2 {
+  color: #bfdf32;
+}
+.font-cinza {
+  color: darkgray;
+}
+
+p {
+  color: #ffffff;
+}
